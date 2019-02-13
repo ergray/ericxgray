@@ -1,0 +1,24 @@
+{
+  "name": "ericxgray.com",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "4.16.4",
+    "body-parser": "1.18.3"
+  },
+  "description": "Practice Space for Javascript and GCP",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ergray/ericxgray.git"
+  },
+  "author": "Eric Gray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ergray/ericxgray/issues"
+  },
+  "homepage": "https://github.com/ergray/ericxgray#readme"
+}
