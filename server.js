@@ -21,6 +21,9 @@ app.post('/webhook', function(req, res){
     res.send('ok')
 })
 
+const PORT = process.env.PORT || 8080
 
-app.listen(3000)
+app.listen(PORT, ()=> {
+    console.log(`Server listening on port ${PORT}...`)
+})
 
