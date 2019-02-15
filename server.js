@@ -17,8 +17,8 @@ app.get('/webhook', function(req, res){
 
 app.post('/webhook', function(req, res){
     console.log("post webhook")
-    // res.sendStatus(200)
-    res.send('ok')
+    res.sendStatus(200)
+    // res.send('ok')
 })
 
 const PORT = process.env.PORT || 8080
