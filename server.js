@@ -12,7 +12,7 @@ app.get('/', function(req, res){
 app.get('/webhook', function(req, res){
     console.log("got webhook")
     // res.sendStatus(200)
-    res.send('ok')
+    res.send(req.body)
 })
 
 app.post('/webhook', function(req, res){
