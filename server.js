@@ -17,6 +17,7 @@ app.get('/webhook', function(req, res){
 
 app.post('/webhook', function(req, res){
     console.log("post webhook")
+    console.log(req.body)
     res.sendStatus(202)
     // res.send('ok')
 })
