@@ -11,6 +11,7 @@ app.get('/', function(req, res){
 
 app.get('/webhook', function(req, res){
     console.log("got webhook")
+    console.log(req.body)
     // res.sendStatus(200)
     res.send(req.body)
 })
@@ -18,7 +19,7 @@ app.get('/webhook', function(req, res){
 app.post('/webhook', function(req, res){
     console.log("post webhook")
     console.log(req.body)
-    res.sendStatus(202)
+    res.sendStatus(200)
     // res.send('ok')
 })
 
